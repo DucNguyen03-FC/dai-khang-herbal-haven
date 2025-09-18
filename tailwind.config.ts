@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        herbal: {
+          primary: "hsl(var(--herbal-primary))",
+          "primary-light": "hsl(var(--herbal-primary-light))",
+          gold: "hsl(var(--herbal-gold))",
+          "gold-light": "hsl(var(--herbal-gold-light))",
+          earth: "hsl(var(--herbal-earth))",
+          sage: "hsl(var(--herbal-sage))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +65,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-herbal": "var(--gradient-herbal)",
+        "gradient-gold": "var(--gradient-gold)",
+        "gradient-nature": "var(--gradient-nature)",
+      },
+      boxShadow: {
+        herbal: "var(--shadow-herbal)",
+        gold: "var(--shadow-gold)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
       },
       borderRadius: {
         lg: "var(--radius)",
